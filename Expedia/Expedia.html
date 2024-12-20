@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>expedia</title>
+    <link rel="stylesheet" href="vendor/css/normalize.css">
+    <link rel="stylesheet" href="vendor/css/Grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="resourse/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="vendor/js/jquery.waypoints.min.js"></script>
+    <script src="resourse/js/index.js"></script>
+</head>
+
+<body>
+    <header>
+        <video autoplay loop muted plays-inline class="background-clip">
+            <source src="resourse/css/img/bgvideo.mp4" type="video/mp4">
+        </video>
+
+        <div class="row" id="navbar">
+            <img src="resourse/img/logo3.png" alt="logo-white" class="logo-white">
+            <ul class="main-navs">
+                <li><a href="#">Packages</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+
+        <div class="main-text">
+            <h1>Stuck in your daily life?<br>
+                Let's have a Vacation Tour!</h1>
+        </div>
+    </header>
+    <section class="packages">
+
+        <div class="row js--wp-1">
+            <h1>Exciting packages just for you!</h1>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <img src="resourse/img/kolkata.webp" alt="kolkata" />
+                <h3>Kolkata</h3><br>
+                <h4>10,000 for 5 days and 4 nights</h4><br>
+                <a href="#" class="btn">Show more</a>
+            </div>
+
+            <div class="box">
+                <img src="resourse/img/jaipur.jpg" alt="jaipur" />
+                <h3>Jaipur</h3><br>
+                <h4>10,000 for 5 days and 4 nights</h4><br>
+                <a href="#" class="btn">Show more</a>
+            </div>
+
+            <div class="box">
+                <img src="resourse/img/kerala.jpg" alt="kerala" />
+                <h3>Kerala</h3><br>
+                <h4>10,000 for 5 days and 4 nights</h4><br>
+                <a href="#" class="btn">Show more</a>
+            </div>
+
+            <div class="box">
+                <img src="resourse/img/amritsar.webp" alt="amritsar" />
+                <h3>Amritsar</h3><br>
+                <h4>10,000 for 5 days and 4 nights</h4><br>
+                <a href="#" class="btn">Show more</a>
+            </div>
+        </div>
+    </section>
+    <section class="blogs">
+        <div class="row">
+            <div class="blog">
+                <img src="resourse/img/kashmir-blog.jpg" alt="kashmir">
+                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, dolor?</h4>
+            </div>
+
+            <div class="blog">
+                <img src="resourse/img/jaipur-blog.jpg" alt="jaipur">
+                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, dolor?</h4>
+            </div>
+
+            <div class="blog">
+                <img src="resourse/img/blog.jpg" alt="blog">
+                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, dolor?</h4>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <h1>Contact us!</h1>
+        </div>
+        <div class="row">
+            <form id="contact_form" name="contact_form" method="post">
+                <div class="mb-3">
+                    <label for="email_addr">Email address</label>
+                    <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="name_input">Name</label>
+                    <input type="text" required maxlength="50" class="form-control" id="name_input" name="name"
+                        placeholder="Name">
+                </div>
+                <div class="mb-3">
+                    <label for="phone_input">Phone</label>
+                    <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
+                        placeholder="Phone">
+                </div>
+                <div class="mb-3">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary px-4">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="row">
+            <div class="col span-1-of-2">
+                <ul class="footer-navs">
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col span-1-of-2">
+                <ul class="social-navs">
+                    <li><a href=""><i class="ion-social-twitter"><ion-icon name="logo-twitter"></ion-icon></i></a></li>
+                    <li><a href="#"><i class="ion-social-facebook"><ion-icon name="logo-facebook"></ion-icon></i></a>
+                    </li>
+                    <li><a href="#"><i class="ion-social-google-playstore"><ion-icon
+                                    name="logo-google-playstore"></ion-icon></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"><ion-icon name="logo-instagram"></ion-icon></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <p>Copyright &copy;2024, Expedia All rights reserved</p>
+        </div>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
