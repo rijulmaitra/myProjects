@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gsx</title>
+    <style>
+        /* Styling the body to center the content and set the background color */
+        body {
+            background-color: rgba(41, 154, 65, 0.55); 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            margin: 0;
+        }
+
+        /* Styling the heading */
+        h1 {
+            text-align: center; 
+        }
+    </style>
+</head>
+<body>
+    <h1>You cannot copy and paste it anywhere!!!</h1>
+</body>
+<script>
+    // Listen for the copy event
+    document.addEventListener("copy", (event) => {
+        // Get the selected text (if any)
+        const selectedData = window.getSelection().toString();
+
+        // Replace the copied content with a custom message
+        event.clipboardData.setData(
+            "text/plain",
+            "lol, you can't" // Custom text to replace copied content
+        );
+        // Prevent the default copy action
+        event.preventDefault();
+    });
+</script>
+</html>
