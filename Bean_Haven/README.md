@@ -1,0 +1,1 @@
+This project demonstrates a simple HTML webpage that restricts users from copying its content. If a user attempts to copy any text, the clipboard content is replaced with a custom message
